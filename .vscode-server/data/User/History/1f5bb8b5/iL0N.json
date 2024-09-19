@@ -1,0 +1,8 @@
+{
+    "remote.SSH.remotePlatform": {
+        "azure": "linux"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ]
+}

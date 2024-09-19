@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:40249
+[2024-09-19 06:54:38] info Disposed of connection to running server.
+looking for token f216b756-557f-419e-969e-882aedab5585, got Some("f216b756-557f-419e-969e-882aedab5585")
+[2024-09-19 06:54:39] info Checking /home/student/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/log.txt and /home/student/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/pid.txt for a running server...
+[2024-09-19 06:54:39] info Found running server (pid=1538)
