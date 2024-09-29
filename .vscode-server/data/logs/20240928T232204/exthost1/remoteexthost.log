@@ -1,0 +1,10 @@
+2024-09-28 23:22:07.124 [info] Extension host with pid 1284 started
+2024-09-28 23:22:07.408 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-09-28 23:22:07.528 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-09-28 23:22:07.529 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-09-28 23:22:07.969 [info] Eager extensions activated
+2024-09-28 23:22:07.969 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 23:22:07.970 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-28 23:23:54.066 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-09-28 23:34:25.982 [info] Extension host terminating: received terminate message from renderer
+2024-09-28 23:34:26.002 [info] Extension host with pid 1284 exiting with code 0

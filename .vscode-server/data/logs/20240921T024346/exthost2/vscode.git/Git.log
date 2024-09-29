@@ -1,0 +1,44 @@
+2024-09-21 03:20:26.780 [info] [main] Log level: Info
+2024-09-21 03:20:26.780 [info] [main] Validating found git in: "git"
+2024-09-21 03:20:26.780 [info] [main] Using git "2.34.1" from "git"
+2024-09-21 03:20:26.780 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-21 03:20:26.780 [info] > git rev-parse --show-toplevel [33ms]
+2024-09-21 03:20:26.780 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-21 03:20:26.780 [info] [Model][openRepository] Opened repository: /home/student
+2024-09-21 03:20:26.780 [info] > git config --get commit.template [4ms]
+2024-09-21 03:20:26.780 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-21 03:20:26.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-21 03:20:26.780 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-21 03:20:26.786 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-21 03:20:26.790 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-21 03:20:26.794 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-21 03:20:26.798 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-21 03:20:26.804 [info] > git status -z -uall [19ms]
+2024-09-21 03:20:26.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-09-21 03:20:26.858 [info] > git config --get commit.template [31ms]
+2024-09-21 03:20:26.919 [info] > git config --local branch.main.vscode-merge-base [89ms]
+2024-09-21 03:20:26.920 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-21 03:20:26.928 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-09-21 03:20:26.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-21 03:20:26.933 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-21 03:20:26.933 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-21 03:20:26.940 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-09-21 03:20:26.948 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-09-21 03:20:26.954 [info] > git diff --name-status -z --diff-filter=ADMR b840c96080c331404ab223195677b22a0a5ad0e5...refs/remotes/origin/main [3ms]
+2024-09-21 03:20:26.966 [info] > git status -z -uall [28ms]
+2024-09-21 03:20:26.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-21 03:20:26.979 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-21 03:20:26.979 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-21 03:20:26.986 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-21 03:20:26.989 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-21 03:20:26.989 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-21 03:20:27.333 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-21 03:24:03.095 [info] > git config --get commit.template [5ms]
+2024-09-21 03:24:03.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-21 03:24:03.116 [info] > git status -z -uall [17ms]
+2024-09-21 03:24:03.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-21 03:24:03.130 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-21 03:24:03.130 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-21 03:24:03.134 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-21 03:24:03.137 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-21 03:24:03.137 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

@@ -1,0 +1,27 @@
+2024-09-20 14:30:35.291 [info] 
+
+
+
+
+2024-09-20 14:30:35.312 [info] Extension host agent started.
+2024-09-20 14:30:35.731 [error] [<unknown>][58bf990a][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-09-20 14:30:35.734 [error] [<unknown>][4bb46782][ManagementConnection] Unknown reconnection token (never seen).
+2024-09-20 14:32:03.534 [info] [<unknown>][aad0a6fb][ManagementConnection] New connection established.
+2024-09-20 14:32:03.538 [info] [<unknown>][7ebe43fa][ExtensionHostConnection] New connection established.
+2024-09-20 14:32:03.543 [info] [<unknown>][7ebe43fa][ExtensionHostConnection] <1408> Launched Extension Host Process.
+2024-09-20 14:33:26.086 [info] [<unknown>][aad0a6fb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-20 14:33:26.116 [info] [<unknown>][7ebe43fa][ExtensionHostConnection] <1408> Extension Host Process exited with code: 0, signal: null.
+2024-09-20 14:33:26.117 [info] Cancelling previous shutdown timeout
+2024-09-20 14:33:26.117 [info] Last EH closed, waiting before shutting down
+2024-09-20 14:33:37.529 [info] [<unknown>][d779605e][ManagementConnection] New connection established.
+2024-09-20 14:33:37.531 [info] [<unknown>][fabe1a32][ExtensionHostConnection] New connection established.
+2024-09-20 14:33:37.535 [info] [<unknown>][fabe1a32][ExtensionHostConnection] <1559> Launched Extension Host Process.
+2024-09-20 14:33:37.538 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-20 14:38:26.121 [info] New EH opened, aborting shutdown
+2024-09-20 18:37:39.549 [info] [<unknown>][d779605e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-20 21:37:20.519 [info] [<unknown>][fabe1a32][ExtensionHostConnection] <1559> Extension Host Process exited with code: 0, signal: null.
+2024-09-20 21:37:20.520 [info] Last EH closed, waiting before shutting down
+2024-09-20 21:37:47.235 [info] [<unknown>][d779605e][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-09-20 21:42:20.520 [info] Last EH closed, shutting down
