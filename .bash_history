@@ -473,3 +473,73 @@ mv ~/03_cpu.jpg .
 ls
 ls -l
 ls -L
+ls 
+cd ENGR212_Kubota_Ngwa 
+ls 
+lcd lab3
+cd lab3
+ls
+mv 03_cpu.jpg 03_cpu.txt 
+ls 
+file 03_cpu.txt
+mv 03_cpu.txt 03_cpu.jpg 
+ls 
+file 03_cpu.jpg
+touch lab3.txt
+echo "Somewhere over the rainbow" lab3.txt
+ln lab3.txt Lab3hardlink.txt
+ls 
+cat Lab3hardlink.tx
+cat Lab3hardlink.txt 
+cat Lab3hardlink.txt
+ls
+cat lab3.txt
+echo "Somewhere over the rainbow"> lab3.txt 
+cat lab3.txt
+cat  Lab3hardlink.txt
+ln -s Lab3symboliclink.txt 
+ln -s lab3.txt Lab3symboliclink.txt 
+ls
+rm Lab3symboliclink.txt
+ln -s lab3.txt Lab3symboliclink.txt
+ls
+cat Lab3symboliclink.txt
+echo "Skies are blue " >> lab3.txt 
+cat lab3.txt
+cat Lab3symboliclink.txt | cat Lab3hardlink.txt
+echo "Really do come true" >> Lab3symboliclink.txt 
+cat lab3.txt | cat Lab3hardlink.txt
+file lab3.txt | file Lab3hardlink.txt | file Lab3symboliclink.txt
+file lab3.txt
+file Lab3hardlink.txt
+file Lab3symboliclink.txt
+mv lab3.txt lab3original.txt 
+cat lab3original.txt
+cat Lab3symboliclink.txt 
+ls
+cat Lab3symboliclink.txt
+cat  Lab3symboliclink.txt
+ls
+unlink Lab3symboliclink.txt
+cd /usr/bin
+ls -alf
+ls -a -l -F
+ls 
+cd /dev
+ls -l
+cd ..
+ls 
+cd 
+cd ..
+ls
+cd ..
+clear
+ls
+cd home
+ls
+cd student 
+ls
+cd ENGR212_Kubota_Ngwa 
+git add --all
+git commit -m "lab3 commit"
+git push
