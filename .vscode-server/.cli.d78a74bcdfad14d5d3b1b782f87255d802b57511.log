@@ -5,3 +5,4 @@ looking for token b72db6af-06ee-4416-8e19-5dc027a3100d, got Some("b72db6af-06ee-
 [2024-10-03 19:42:19] info Downloading Visual Studio Code server -> /tmp/.tmpajku0Q/vscode-server-linux-x64.tar.gz
 [2024-10-03 19:42:22] info Starting server...
 [2024-10-03 19:42:22] info Server started
+[2024-10-03 22:22:31] info Disposed of connection to running server.

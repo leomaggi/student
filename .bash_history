@@ -543,3 +543,74 @@ cd ENGR212_Kubota_Ngwa
 git add --all
 git commit -m "lab3 commit"
 git push
+ls
+cd ENGR212_Kubota_Ngwa
+ls
+mkdir lab6 
+cd lab6
+ls -d -l
+ls -d -i
+cd lab4
+cd .
+cd..
+cd ..
+cd lab4
+ls
+cd Lyrics
+ls
+pwd
+cd ..
+cd lab6
+cp -r /home/student/ENGR212_Kubota_Ngwa/lab4/Lyrics .
+ls
+cd Lyrics 
+ls
+ls -l
+chmod 760 all_my_life.txt
+ls -l
+cat all_my_life.txt
+⦁	Run the command chmod u+r all_my_life.txt
+⦁ chmod u+r all_my_life.txt 
+chmod u+r all_my_life.txt 
+ls -l
+⦁	chmod g-w  all_my_life.txt
+chmod g-w all_my_life.txt
+ls -l
+	chmod go+rw Lyrics/* 
+chmod go+rw Lyrics
+chmod go+rw
+chmod --help
+chmod -R go+rw
+chmod -R go+rw *
+ls -l
+ls -id 
+cd Night
+ls -id
+ls -id -l
+cd ..
+ls -id -l
+chmod u-x Night
+ls Night/
+ls -l Night/
+sudo ls -l Night/
+cat Night/dance_the_night.pdf 
+chmod u+x Night/
+unmask -S
+-S unmask
+mask
+mask Lyrics 
+umask
+umask -S
+umask 077
+umask
+umask -S
+group
+groups 
+cd 
+ls 
+cd  NGR212_Kubota_Ngwa
+ls
+cd ENGR212_Kubota_Ngwa
+git add --all
+git commit -m " My lab 6 commit "
+git push 
